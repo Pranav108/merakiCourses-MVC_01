@@ -1,0 +1,17 @@
+{
+  "name": "mvc_01",
+  "version": "1.0.0",
+  "description": "1st project with MVC architecture",
+  "main": "app.js",
+  "scripts": {
+    "start_dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "pranav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
