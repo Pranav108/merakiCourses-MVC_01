@@ -2,7 +2,7 @@
   "name": "mvc_01",
   "version": "1.0.0",
   "description": "1st project with MVC architecture",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "start_dev": "nodemon server.js"
   },
