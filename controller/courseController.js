@@ -21,7 +21,7 @@ exports.addCourse = async (req, res) => {
   newCourse.id = (jsonDataArray.length + 1).toString();
   jsonDataArray.push(newCourse);
   fs.writeFileSync("courses.json", JSON.stringify(jsonDataArray));
-  res.send({ success: true, msg: "account added successfully" });
+  res.send({ success: true, msg: "course added successfully" });
 };
 
 exports.getCourses = async (req, res) => {
